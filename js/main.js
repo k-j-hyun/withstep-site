@@ -718,10 +718,10 @@ function initHeaderScroll() {
 
 // EmailJS 설정 - 아래 값들을 본인의 EmailJS 계정 정보로 변경하세요
 const EMAILJS_CONFIG = {
-    PUBLIC_KEY: 'YOUR_PUBLIC_KEY',  // EmailJS Dashboard에서 Public Key 복사
-    SERVICE_ID: 'YOUR_SERVICE_ID',   // EmailJS Service ID
-    BUSINESS_TEMPLATE_ID: 'YOUR_BUSINESS_TEMPLATE_ID',  // 기업 상담용 템플릿 ID
-    RECRUIT_TEMPLATE_ID: 'YOUR_RECRUIT_TEMPLATE_ID'     // 인재 지원용 템플릿 ID
+    PUBLIC_KEY: 'bAvY1b98_IC4a9XFk',
+    SERVICE_ID: 'service_rzonx0n',
+    BUSINESS_TEMPLATE_ID: 'template_e0ag3fb',
+    RECRUIT_TEMPLATE_ID: 'template_7237v7h'
 };
 
 function initContactForm() {
