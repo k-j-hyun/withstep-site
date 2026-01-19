@@ -1145,33 +1145,42 @@ body.menu-open {
         grid-template-columns: 1fr;
     }
 
+    .ceo-message {
+        padding: 40px 20px;
+        margin: 40px 0;
+        overflow-x: hidden;
+    }
+
     .ceo-layout {
         grid-template-columns: 1fr;
-        gap: 30px;
+        gap: 0;
+        max-width: 100%;
+        padding: 0;
     }
 
     .ceo-image {
-        max-width: 250px;
-        margin: 0 auto;
-        position: relative;
-        top: 0;
+        display: none;
     }
 
     .ceo-content {
         text-align: center;
+        word-break: keep-all;
     }
 
     .ceo-content h4 {
-        font-size: 22px;
+        font-size: 20px;
+        margin-bottom: 20px;
     }
 
     .ceo-intro {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .ceo-content p {
         text-align: left;
         font-size: 14px;
+        line-height: 1.7;
+        margin: 15px 0;
     }
 
     .ceo-sign {
