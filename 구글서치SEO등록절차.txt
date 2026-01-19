@@ -1,0 +1,22 @@
+SEO 설정한 도메인 주소 withstep.com
+
+  Google Search Console 등록 절차
+
+  1. https://search.google.com/search-console 접속
+  2. https://withstep.com 속성 추가
+  3. 소유권 확인 (HTML 파일 업로드 또는 DNS TXT 레코드)
+  4. Sitemaps 메뉴에서 sitemap.xml 제출
+
+  ---
+
+SEO 세팅 완료
+  1. SEO + Open Graph 메타 태그 (9개 HTML 파일)
+  - og:title, og:description, og:image (카카오톡/페이스북 공유용)
+  - Twitter Card 태그
+  - canonical URL
+  - keywords
+  - robots 지시자 (privacy, terms는 noindex 처리)
+
+  2. robots.txt - 검색엔진 크롤링 허용
+
+  3. sitemap.xml - Google Search Console 제출용

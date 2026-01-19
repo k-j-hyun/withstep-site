@@ -1,0 +1,46 @@
+  📂 최종 폴더 구조:
+
+  withstep/
+  ├── 📁 css/           (1개 파일 - style.css)
+  ├── 📁 js/            (1개 파일 - main.js)
+  ├── 📁 logo/          (6개 파일 - 로고 이미지들)
+  ├── 📁 videos/        (6개 파일 - 비디오 배경)
+  ├── 📄 index.html     (메인 페이지)
+  ├── 📄 about.html     (회사소개)
+  ├── 📄 services.html  (서비스)
+  ├── 📄 operation.html (운영방식)
+  ├── 📄 industries.html(산업분야)
+  ├── 📄 support.html   (고객지원)
+  ├── 📄 contact.html   (문의하기)
+  ├── 📄 privacy.html   (개인정보처리방침)
+  └── 📄 terms.html     (이용약관)
+
+
+ 📧 이메일 전송 방법:
+
+  1️⃣ EmailJS 
+- 무료로 월 200건까지 이메일 전송가능
+- JavaScript만으로 구현
+- 회원가입 필요
+
+ # 📧 EmailJS 설정 가이드
+     이메일 전송 기능을 활성화하려면 EmailJS 설정이 필요합니다.
+     ## 1단계: EmailJS 회원가입
+     1. https://www.emailjs.com/ 접속
+     2. **Sign Up** 클릭 (무료 계정: 월 200건까지 무료)
+     3. 이메일 인증 완료
+
+
+
+ EmailJS 설정 - 아래 값들을 본인의 EmailJS 계정 정보로 변경하세요
+
+
+      720 +const EMAILJS_CONFIG = {
+      721 +    PUBLIC_KEY: 'YOUR_PUBLIC_KEY',  // EmailJS Dashboard에서 Public Key 복사
+
+
+      722 +    SERVICE_ID: 'YOUR_SERVICE_ID',   // EmailJS Service ID
+      723 +    BUSINESS_TEMPLATE_ID: 'YOUR_BUSINESS_TEMPLATE_ID',  // 기업 상담용 템플릿 ID
+
+
+      724 +    RECRUIT_TEMPLATE_ID: 'YOUR_RECRUIT_TEMPLATE_ID'     // 인재 지원용 템플릿 ID

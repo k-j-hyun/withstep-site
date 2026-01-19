@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WITHSTEP - WITHSTEP에 문의하세요 - 기업 상담 및 인재 지원">
+    <meta name="keywords" content="WITHSTEP 문의, 상담신청, 기업상담, 인재지원, 아웃소싱 문의">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://withstep.com/contact.html">
+
+    <!-- Open Graph / Facebook / KakaoTalk -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://withstep.com/contact.html">
+    <meta property="og:title" content="문의하기 - WITHSTEP">
+    <meta property="og:description" content="WITHSTEP에 문의하세요. 기업 상담 및 인재 지원">
+    <meta property="og:image" content="https://withstep.com/logo/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="WITHSTEP">
+    <meta property="og:locale" content="ko_KR">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://withstep.com/contact.html">
+    <meta name="twitter:title" content="문의하기 - WITHSTEP">
+    <meta name="twitter:description" content="WITHSTEP에 문의하세요. 기업 상담 및 인재 지원">
+    <meta name="twitter:image" content="https://withstep.com/logo/og-image.png">
+
+    <title>문의하기 - WITHSTEP</title>
+    <link rel="icon" type="image/png" href="logo/WS_ico_transparent1.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo">
+                <a href="index.html"><img src="logo/WITHSTEP_logo_transparent.png" alt="WITHSTEP"></a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" data-i18n="nav.home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" data-i18n="nav.about">회사소개</a>
+                        <ul class="dropdown">
+                            <li><a href="about.html#about-overview" data-i18n="nav.aboutOverview">회사 개요</a></li>
+                            <li><a href="about.html#ceo-message" data-i18n="nav.ceoMessage">CEO 인사말</a></li>
+                            <li><a href="about.html#vision" data-i18n="nav.vision">비전·미션·핵심가치</a></li>
+                            <li><a href="about.html#history" data-i18n="nav.history">회사 연혁</a></li>
+                            <li><a href="about.html#certification" data-i18n="nav.certification">인증 및 신뢰</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" data-i18n="nav.services">서비스</a>
+                        <ul class="dropdown">
+                            <li><a href="services.html#service-outsourcing" data-i18n="nav.serviceOutsourcing">운영형 아웃소싱</a></li>
+                            <li><a href="services.html#service-dispatch" data-i18n="nav.serviceDispatch">인재파견</a></li>
+                            <li><a href="services.html#service-headhunting" data-i18n="nav.serviceHeadhunting">헤드헌팅·RPO</a></li>
+                            <li><a href="services.html#service-outplacement" data-i18n="nav.serviceOutplacement">전직지원 서비스</a></li>
+                            <li><a href="services.html#service-hr" data-i18n="nav.serviceHR">인재관리(HR 컨설팅)</a></li>
+                            <li><a href="services.html#service-app" data-i18n="nav.serviceApp">맞춤형 앱 개발</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="operation.html" data-i18n="nav.operation">운영방식</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="industries.html" data-i18n="nav.industries">산업분야</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="support.html" data-i18n="nav.support">고객지원</a>
+                        <ul class="dropdown">
+                            <li><a href="support.html#process" data-i18n="nav.process">도입 절차 안내</a></li>
+                            <li><a href="support.html#faq" data-i18n="nav.faq">자주 묻는 질문</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="active" data-i18n="nav.contact">문의하기</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-utils">
+                <button class="search-btn" aria-label="검색">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+                <button class="lang-btn" id="langToggle">ENG</button>
+            </div>
+            <button class="mobile-menu-btn" aria-label="메뉴">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="page-title">
+        <div class="container">
+            <h1 data-i18n="contact.pageTitle">문의하기</h1>
+            <p data-i18n="contact.pageSubtitle">Contact</p>
+        </div>
+    </section>
+
+<!-- 문의하기 섹션 -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Contact</p>
+                <h2 class="section-title">문의하기</h2>
+                <p class="section-desc">WITHSTEP과 함께 새로운 가능성을 만들어 가세요</p>
+            </div>
+
+            <div class="contact-tabs">
+                <button class="tab-btn active" data-tab="business" data-i18n="contact.tabs.business">기업 상담 문의</button>
+                <button class="tab-btn" data-tab="recruit" data-i18n="contact.tabs.recruit">인재 지원 (구직자용)</button>
+            </div>
+
+            <div class="contact-wrapper">
+                <!-- 기업 상담 문의 폼 -->
+                <div id="business-tab" class="tab-content active">
+                    <form class="contact-form" id="businessForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="company-name" data-i18n="contact.form.companyName">회사명 *</label>
+                                <input type="text" id="company-name" name="companyName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-person" data-i18n="contact.form.contactPerson">담당자명 *</label>
+                                <input type="text" id="contact-person" name="contactPerson" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contact-tel" data-i18n="contact.form.phone">연락처 *</label>
+                                <input type="tel" id="contact-tel" name="phone" required placeholder="010-0000-0000">
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email" data-i18n="contact.form.email">이메일 *</label>
+                                <input type="email" id="contact-email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="service-type" data-i18n="contact.form.serviceType">필요 서비스 *</label>
+                            <select id="service-type" name="serviceType" required>
+                                <option value="" data-i18n="contact.form.selectPlaceholder">선택해주세요</option>
+                                <option value="outsourcing">운영형 아웃소싱</option>
+                                <option value="dispatch">인재파견</option>
+                                <option value="headhunting">헤드헌팅·RPO</option>
+                                <option value="outplacement">전직지원 서비스</option>
+                                <option value="hr">인재관리(HR 컨설팅)</option>
+                                <option value="other">기타</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="industry" data-i18n="contact.form.industry">업종</label>
+                                <select id="industry" name="industry">
+                                    <option value="" data-i18n="contact.form.selectPlaceholder">선택해주세요</option>
+                                    <option value="manufacture">제조/생산</option>
+                                    <option value="logistics">물류/창고/택배</option>
+                                    <option value="retail">유통/매장/판촉</option>
+                                    <option value="event">행사/프로모션</option>
+                                    <option value="fnb">F&B/서비스</option>
+                                    <option value="office">사무/운영지원</option>
+                                    <option value="facility">시설관리/미화/보안</option>
+                                    <option value="other">기타</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="headcount" data-i18n="contact.form.headcount">필요 인원</label>
+                                <input type="text" id="headcount" name="headcount" placeholder="예: 10명">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="location" data-i18n="contact.form.location">근무 지역</label>
+                            <input type="text" id="location" name="location" placeholder="예: 서울 강남구">
+                        </div>
+                        <div class="form-group">
+                            <label for="inquiry-message" data-i18n="contact.form.message">문의 내용 *</label>
+                            <textarea id="inquiry-message" name="message" rows="5" required placeholder="문의 내용을 자세히 입력해주세요"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn" data-i18n="contact.form.submit">문의하기</button>
+                    </form>
+                </div>
+
+                <!-- 인재 지원 폼 -->
+                <div id="recruit-tab" class="tab-content">
+                    <form class="contact-form" id="recruitForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="applicant-name" data-i18n="contact.recruit.name">이름 *</label>
+                                <input type="text" id="applicant-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="applicant-tel" data-i18n="contact.recruit.phone">연락처 *</label>
+                                <input type="tel" id="applicant-tel" name="phone" required placeholder="010-0000-0000">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="applicant-email" data-i18n="contact.recruit.email">이메일 *</label>
+                            <input type="email" id="applicant-email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="apply-field" data-i18n="contact.recruit.field">지원 분야 *</label>
+                            <select id="apply-field" name="field" required>
+                                <option value="" data-i18n="contact.form.selectPlaceholder">선택해주세요</option>
+                                <option value="manufacture">제조/생산</option>
+                                <option value="logistics">물류/창고/택배</option>
+                                <option value="retail">유통/매장/판촉</option>
+                                <option value="event">행사/프로모션</option>
+                                <option value="fnb">F&B/서비스</option>
+                                <option value="office">사무/운영지원</option>
+                                <option value="facility">시설관리/미화/보안</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="career" data-i18n="contact.recruit.career">경력</label>
+                            <input type="text" id="career" name="career" placeholder="예: 3년">
+                        </div>
+                        <div class="form-group">
+                            <label for="applicant-message" data-i18n="contact.recruit.message">자기소개 및 지원 동기</label>
+                            <textarea id="applicant-message" name="message" rows="5" placeholder="간단한 자기소개와 지원 동기를 작성해주세요"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn" data-i18n="contact.recruit.submit">지원하기</button>
+                    </form>
+                </div>
+
+                <!-- 연락처 정보 -->
+                <div class="contact-info-box">
+                    <h3 data-i18n="contact.info.title">연락처 안내</h3>
+                    <div class="info-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        <div>
+                            <strong>전화</strong>
+                            <p>대표번호 문의</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                            <path d="m2 7 10 7L22 7"></path>
+                        </svg>
+                        <div>
+                            <strong>이메일</strong>
+                            <p>info@withstep.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <div>
+                            <strong>오시는 길</strong>
+                            <p>서울특별시 송파구 가락동 29-5 ㈜WITHSTEP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 검색 모달 -->
+    <div id="searchModal" class="search-modal">
+        <div class="search-modal-content">
+            <button class="search-close">&times;</button>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="검색어를 입력하세요..." data-i18n-placeholder="search.placeholder">
+                <button class="search-submit" data-i18n="search.submit">검색</button>
+            </div>
+            <div class="search-results" id="searchResults"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <a href="index.html">WITHSTEP</a>
+                    <p class="footer-tagline">현장을 이해하는 가장 신뢰받는 운영 파트너</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>회사소개</h4>
+                        <ul>
+                            <li><a href="about.html#about-overview">회사 개요</a></li>
+                            <li><a href="about.html#ceo-message">CEO 인사말</a></li>
+                            <li><a href="about.html#vision">비전·미션·핵심가치</a></li>
+                            <li><a href="about.html#history">회사 연혁</a></li>
+                            <li><a href="about.html#certification">인증 및 신뢰</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>서비스</h4>
+                        <ul>
+                            <li><a href="services.html#service-outsourcing">운영형 아웃소싱</a></li>
+                            <li><a href="services.html#service-dispatch">인재파견</a></li>
+                            <li><a href="services.html#service-headhunting">헤드헌팅·RPO</a></li>
+                            <li><a href="services.html#service-outplacement">전직지원 서비스</a></li>
+                            <li><a href="services.html#service-hr">인재관리(HR 컨설팅)</a></li>
+                            <li><a href="services.html#service-app">맞춤형 앱 개발</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>산업분야</h4>
+                        <ul>
+                            <li><a href="industries.html">제조/생산</a></li>
+                            <li><a href="industries.html">물류/창고/택배</a></li>
+                            <li><a href="industries.html">유통/매장/판촉</a></li>
+                            <li><a href="industries.html">행사/프로모션</a></li>
+                            <li><a href="industries.html">F&B/서비스</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>고객지원</h4>
+                        <ul>
+                            <li><a href="support.html#process">도입 절차 안내</a></li>
+                            <li><a href="support.html#faq">자주 묻는 질문</a></li>
+                            <li><a href="contact.html">기업 상담 문의</a></li>
+                            <li><a href="contact.html">인재 지원</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-info">
+                    <p><strong>㈜WITHSTEP</strong> | 대표이사: 유재권</p>
+                    <p>주소: 서울특별시 송파구 가락동 29-5 ㈜WITHSTEP</p>
+                    <p>이메일: info@withstep.com</p>
+                </div>
+                <div class="footer-policy">
+                    <a href="privacy.html">개인정보처리방침</a>
+                    <span>|</span>
+                    <a href="terms.html">이용약관</a>
+                </div>
+                <p class="copyright">© 2025 WITHSTEP. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
