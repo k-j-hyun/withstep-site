@@ -1147,15 +1147,14 @@ body.menu-open {
 
     /* Company Overview 모바일 */
     .about-overview {
-        padding: 0 20px;
-        margin-bottom: 40px;
+        padding: 0 20px !important;
+        margin-bottom: 40px !important;
     }
 
     .about-overview-content {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        gap: 0;
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
     }
 
     .about-image {
@@ -1163,45 +1162,43 @@ body.menu-open {
     }
 
     .about-text {
-        width: 100%;
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 0;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        padding: 0 !important;
     }
 
     .about-overview h3 {
-        font-size: 22px;
-        text-align: center;
-        margin-bottom: 20px;
+        font-size: 22px !important;
+        text-align: center !important;
+        margin-bottom: 20px !important;
     }
 
     .about-text p,
     .about-overview .highlight {
-        font-size: 14px;
-        text-align: center;
-        line-height: 1.8;
-        padding: 0 10px;
+        font-size: 14px !important;
+        text-align: center !important;
+        line-height: 1.8 !important;
+        padding: 0 10px !important;
     }
 
     .about-overview .highlight {
-        font-size: 15px;
+        font-size: 15px !important;
     }
 
     /* CEO 인사말 모바일 */
     .ceo-message {
-        padding: 40px 20px;
-        margin: 40px 0;
-        overflow-x: hidden;
+        padding: 40px 20px !important;
+        margin: 40px 0 !important;
+        overflow-x: hidden !important;
     }
 
     .ceo-layout {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        max-width: 100%;
-        padding: 0;
-        margin: 0;
-        gap: 0;
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
     .ceo-image {
@@ -1209,37 +1206,37 @@ body.menu-open {
     }
 
     .ceo-message .section-header h3 {
-        font-size: 22px;
-        text-align: center;
+        font-size: 22px !important;
+        text-align: center !important;
     }
 
     .ceo-content {
-        width: 100%;
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 0 10px;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        padding: 0 10px !important;
     }
 
     .ceo-content h4 {
-        font-size: 18px;
-        margin-bottom: 20px;
-        text-align: center;
+        font-size: 18px !important;
+        margin-bottom: 20px !important;
+        text-align: center !important;
     }
 
     .ceo-intro {
-        font-size: 14px;
-        text-align: center;
+        font-size: 14px !important;
+        text-align: center !important;
     }
 
     .ceo-content p {
-        font-size: 14px;
-        line-height: 1.8;
-        text-align: center;
-        margin: 15px 0;
+        font-size: 14px !important;
+        line-height: 1.8 !important;
+        text-align: center !important;
+        margin: 15px 0 !important;
     }
 
     .ceo-sign {
-        text-align: center;
+        text-align: center !important;
     }
 
     .footer-top {
