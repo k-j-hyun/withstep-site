@@ -1145,6 +1145,39 @@ body.menu-open {
         grid-template-columns: 1fr;
     }
 
+    .ceo-layout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .ceo-image {
+        max-width: 250px;
+        margin: 0 auto;
+        position: relative;
+        top: 0;
+    }
+
+    .ceo-content {
+        text-align: center;
+    }
+
+    .ceo-content h4 {
+        font-size: 22px;
+    }
+
+    .ceo-intro {
+        font-size: 16px;
+    }
+
+    .ceo-content p {
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .ceo-sign {
+        text-align: center;
+    }
+
     .footer-top {
         flex-direction: column;
         gap: 40px;
