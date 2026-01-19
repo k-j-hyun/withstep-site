@@ -25,7 +25,7 @@ const i18n = {
         'nav.ceoMessage': 'CEO 인사말',
         'nav.vision': '비전·미션·핵심가치',
         'nav.history': '회사 연혁',
-        'nav.certification': '인증 및 신뢰',
+        'nav.certification': '인증 및 신뢰(준비중)',
         'nav.services': '서비스',
         'nav.serviceOutsourcing': '운영형 아웃소싱',
         'nav.serviceDispatch': '인재파견',
@@ -83,7 +83,7 @@ const i18n = {
         'about.missionHeader': 'Mission',
         'about.coreValuesHeader': 'Core Values',
         'about.historyTitle': '회사 연혁',
-        'about.certificationTitle': '인증 및 신뢰',
+        'about.certificationTitle': '인증 및 신뢰(준비중)',
 
         // Services
         'services.pageTitle': '서비스',
