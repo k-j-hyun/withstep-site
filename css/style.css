@@ -1145,8 +1145,15 @@ body.menu-open {
         grid-template-columns: 1fr;
     }
 
+    /* Company Overview 모바일 */
+    .about-overview {
+        padding: 0 20px;
+        margin-bottom: 40px;
+    }
+
     .about-overview-content {
         display: block;
+        width: 100%;
     }
 
     .about-image {
@@ -1155,22 +1162,27 @@ body.menu-open {
 
     .about-text {
         width: 100%;
-        text-align: center;
-        padding: 0 15px;
-    }
-
-    .about-text p {
-        text-align: center;
+        max-width: 100%;
     }
 
     .about-overview h3 {
-        font-size: 24px;
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .about-text p,
+    .about-overview .highlight {
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.8;
     }
 
     .about-overview .highlight {
-        font-size: 16px;
+        font-size: 15px;
     }
 
+    /* CEO 인사말 모바일 */
     .ceo-message {
         padding: 40px 20px;
         margin: 40px 0;
@@ -1178,34 +1190,39 @@ body.menu-open {
     }
 
     .ceo-layout {
-        grid-template-columns: 1fr;
-        gap: 0;
+        display: block;
+        width: 100%;
         max-width: 100%;
-        padding: 0;
     }
 
     .ceo-image {
         display: none;
     }
 
-    .ceo-content {
+    .ceo-message .section-header h3 {
+        font-size: 22px;
         text-align: center;
-        word-break: keep-all;
+    }
+
+    .ceo-content {
+        width: 100%;
     }
 
     .ceo-content h4 {
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 20px;
+        text-align: center;
     }
 
     .ceo-intro {
-        font-size: 15px;
+        font-size: 14px;
+        text-align: center;
     }
 
     .ceo-content p {
-        text-align: left;
         font-size: 14px;
-        line-height: 1.7;
+        line-height: 1.8;
+        text-align: center;
         margin: 15px 0;
     }
 
