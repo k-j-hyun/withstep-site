@@ -1152,17 +1152,21 @@ body.menu-open {
     }
 
     .about-overview-content {
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 100%;
+        gap: 0;
     }
 
     .about-image {
-        display: none;
+        display: none !important;
     }
 
     .about-text {
         width: 100%;
         max-width: 100%;
+        margin: 0 auto;
+        padding: 0;
     }
 
     .about-overview h3 {
@@ -1176,6 +1180,7 @@ body.menu-open {
         font-size: 14px;
         text-align: center;
         line-height: 1.8;
+        padding: 0 10px;
     }
 
     .about-overview .highlight {
@@ -1190,13 +1195,17 @@ body.menu-open {
     }
 
     .ceo-layout {
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 100%;
         max-width: 100%;
+        padding: 0;
+        margin: 0;
+        gap: 0;
     }
 
     .ceo-image {
-        display: none;
+        display: none !important;
     }
 
     .ceo-message .section-header h3 {
@@ -1206,6 +1215,9 @@ body.menu-open {
 
     .ceo-content {
         width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
     }
 
     .ceo-content h4 {
