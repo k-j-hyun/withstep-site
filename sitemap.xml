@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://withstep.com/</loc>
+        <loc>https://withstep-site.pages.dev/</loc>
         <lastmod>2025-01-19</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://withstep.com/about.html</loc>
+        <loc>https://withstep-site.pages.dev/about.html</loc>
         <lastmod>2025-01-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://withstep.com/services.html</loc>
+        <loc>https://withstep-site.pages.dev/services.html</loc>
         <lastmod>2025-01-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://withstep.com/operation.html</loc>
+        <loc>https://withstep-site.pages.dev/operation.html</loc>
         <lastmod>2025-01-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://withstep.com/industries.html</loc>
+        <loc>https://withstep-site.pages.dev/industries.html</loc>
         <lastmod>2025-01-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://withstep.com/support.html</loc>
+        <loc>https://withstep-site.pages.dev/support.html</loc>
         <lastmod>2025-01-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://withstep.com/contact.html</loc>
+        <loc>https://withstep-site.pages.dev/contact.html</loc>
         <lastmod>2025-01-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
