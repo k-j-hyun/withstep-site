@@ -1145,6 +1145,15 @@ body.menu-open {
         grid-template-columns: 1fr;
     }
 
+    .about-overview-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .about-image {
+        display: none;
+    }
+
     .ceo-message {
         padding: 40px 20px;
         margin: 40px 0;
