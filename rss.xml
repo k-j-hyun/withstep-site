@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>WITHSTEP - 현장을 이해하는 가장 신뢰받는 운영 파트너</title>
+        <link>https://withstep.kr</link>
+        <description>WITHSTEP(위드스텝) - 운영형 아웃소싱 전문 기업. 인력파견, 채용대행, HR솔루션 서비스 제공</description>
+        <language>ko</language>
+        <lastBuildDate>Sun, 02 Feb 2026 00:00:00 +0900</lastBuildDate>
+        <atom:link href="https://withstep.kr/rss.xml" rel="self" type="application/rss+xml"/>
+
+        <item>
+            <title>WITHSTEP - 현장을 대신 운영하는 파트너</title>
+            <link>https://withstep.kr/</link>
+            <description>WITHSTEP은 기업 인력 아웃소싱과 B2B 인력 공급을 전문으로 하는 인력파견업체입니다. 채용대행, 근로자파견, 인력대행 서비스를 통해 기업의 인력수급과 인력충원 문제를 해결합니다.</description>
+            <pubDate>Sun, 02 Feb 2026 00:00:00 +0900</pubDate>
+            <guid>https://withstep.kr/</guid>
+        </item>
+
+        <item>
+            <title>회사소개 - WITHSTEP</title>
+            <link>https://withstep.kr/about</link>
+            <description>WITHSTEP 회사 개요, CEO 인사말, 비전과 미션, 핵심가치, 회사 연혁을 소개합니다.</description>
+            <pubDate>Sun, 02 Feb 2026 00:00:00 +0900</pubDate>
+            <guid>https://withstep.kr/about</guid>
+        </item>
+
+        <item>
+            <title>서비스 - WITHSTEP</title>
+            <link>https://withstep.kr/services</link>
+            <description>운영형 아웃소싱, 인재파견, 헤드헌팅/RPO, 전직지원 서비스, 인재관리(HR 컨설팅), 맞춤형 앱 개발 서비스를 제공합니다.</description>
+            <pubDate>Sun, 02 Feb 2026 00:00:00 +0900</pubDate>
+            <guid>https://withstep.kr/services</guid>
+        </item>
+
+        <item>
+            <title>운영방식 - WITHSTEP</title>
+            <link>https://withstep.kr/operation</link>
+            <description>WITHSTEP의 체계적인 운영 방식과 프로세스를 소개합니다.</description>
+            <pubDate>Sun, 02 Feb 2026 00:00:00 +0900</pubDate>
+            <guid>https://withstep.kr/operation</guid>
+        </item>
+
+        <item>
+            <title>산업분야 - WITHSTEP</title>
+            <link>https://withstep.kr/industries</link>
+            <description>제조/생산, 물류/창고/택배, 유통/매장/판촉, 행사/프로모션, F&amp;B/서비스 등 다양한 산업분야에 인력 솔루션을 제공합니다.</description>
+            <pubDate>Sun, 02 Feb 2026 00:00:00 +0900</pubDate>
+            <guid>https://withstep.kr/industries</guid>
+        </item>
+
+        <item>
+            <title>고객지원 - WITHSTEP</title>
+            <link>https://withstep.kr/support</link>
+            <description>도입 절차 안내, 자주 묻는 질문(FAQ) 등 고객지원 정보를 제공합니다.</description>
+            <pubDate>Sun, 02 Feb 2026 00:00:00 +0900</pubDate>
+            <guid>https://withstep.kr/support</guid>
+        </item>
+
+        <item>
+            <title>문의하기 - WITHSTEP</title>
+            <link>https://withstep.kr/contact</link>
+            <description>기업 상담 문의, 인재 지원 등 WITHSTEP에 문의하세요.</description>
+            <pubDate>Sun, 02 Feb 2026 00:00:00 +0900</pubDate>
+            <guid>https://withstep.kr/contact</guid>
+        </item>
+    </channel>
+</rss>
