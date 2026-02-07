@@ -1020,6 +1020,20 @@ body.menu-open {
     margin-bottom: 5px;
 }
 
+.footer-info a {
+    color: rgba(255, 255, 255, 0.7);
+    transition: var(--transition);
+}
+
+.footer-info a:hover {
+    color: var(--bg-white);
+}
+
+.footer-tel {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
 .footer-policy {
     margin: 20px 0;
 }
@@ -2049,6 +2063,18 @@ body.menu-open {
     font-size: 14px;
 }
 
+.info-item a.contact-tel {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    transition: var(--transition);
+}
+
+.info-item a.contact-tel:hover {
+    color: var(--primary-dark);
+}
+
 /* Footer 업데이트 */
 .footer-tagline {
     margin-top: 10px;
@@ -2327,6 +2353,17 @@ body.menu-open {
 
 .contact-box strong {
     color: var(--primary-color);
+}
+
+.contact-box a {
+    color: var(--primary-color);
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.contact-box a:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
 }
 
 /* SEO 요약 섹션 */
