@@ -50,6 +50,7 @@
     {
         "@context": "https://schema.org",
         "@type": "Organization",
+        "@id": "https://withstep.kr/#org",
         "name": "WITHSTEP",
         "alternateName": ["위드스텝", "위드스탭"],
         "url": "https://withstep.kr",
@@ -59,7 +60,7 @@
         "email": "withstep.k@gmail.com",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "가락동 29-5",
+            "streetAddress": "서울특별시 송파구 가락동 29-5",
             "addressLocality": "송파구",
             "addressRegion": "서울특별시",
             "addressCountry": "KR"
@@ -76,20 +77,20 @@
     {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
+        "@id": "https://withstep.kr/#localbusiness",
         "name": "WITHSTEP",
         "alternateName": ["위드스텝", "위드스탭"],
         "url": "https://withstep.kr",
         "logo": "https://withstep.kr/logo/og-image.png",
         "image": "https://withstep.kr/logo/og-image.png",
         "description": "현장을 대신 운영하는 파트너. 운영형 아웃소싱 전문 기업",
-        "telephone": "02-2043-2611",
+        "telephone": "+82-2-2043-2611",
         "email": "withstep.k@gmail.com",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "가락동 29-5",
+            "streetAddress": "서울특별시 송파구 가락동 29-5",
             "addressLocality": "송파구",
             "addressRegion": "서울특별시",
-            "postalCode": "",
             "addressCountry": "KR"
         },
         "geo": {
@@ -97,19 +98,24 @@
             "latitude": "37.4979",
             "longitude": "127.1187"
         },
-        "priceRange": "$$",
-        "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-            "opens": "09:00",
-            "closes": "18:00"
-        }
+        "parentOrganization": {
+            "@id": "https://withstep.kr/#org"
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "18:00"
+            }
+        ]
     }
     </script>
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
+        "@id": "https://withstep.kr/#website",
         "name": "WITHSTEP",
         "alternateName": ["위드스텝", "위드스탭"],
         "url": "https://withstep.kr"
